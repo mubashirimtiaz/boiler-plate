@@ -1,0 +1,29 @@
+{
+  "name": "boiler-plate",
+  "version": "1.0.0",
+  "description": "This repository contains the base structure on any project",
+  "main": "index.js",
+  "scripts": {
+    "build": "node_modules/.bin/webpack --mode production",
+    "dev-serve": "webpack-dev-server --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mubashirimtiaz/boiler-plate.git"
+  },
+  "author": "Mubashir Ali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mubashirimtiaz/boiler-plate/issues"
+  },
+  "homepage": "https://github.com/mubashirimtiaz/boiler-plate#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
